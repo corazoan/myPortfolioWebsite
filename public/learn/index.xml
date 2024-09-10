@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learns on Tech | </title>
+    <link>http://localhost:1313/learn/</link>
+    <description>Recent content in Learns on Tech | </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2024 21:58:12 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/learn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn</title>
+      <link>http://localhost:1313/learn/learn/</link>
+      <pubDate>Tue, 27 Aug 2024 21:58:12 +0530</pubDate>
+      <guid>http://localhost:1313/learn/learn/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

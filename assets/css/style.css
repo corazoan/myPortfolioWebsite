@@ -1,0 +1,37 @@
+@tailwind utilities;
+
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  backdrop-filter: blur(100px);
+  background-color: rgb(0, 0, 0);
+}
+#dropDownMenu {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+#DesktopMenu:hover {
+  text-shadow: 2px 2px 15px cyan;
+}
+
+#footerLink:hover {
+  text-shadow: 2px 2px 15px cyan;
+}
+code {
+  background-color: #28460dae;
+}
+pre {
+  background-color: black;
+  padding: 12px;
+}
+P {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

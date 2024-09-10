@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Tech | '
+[build]
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'

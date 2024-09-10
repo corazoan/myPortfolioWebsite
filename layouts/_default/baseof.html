@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }}</title>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    <main>
+      {{ block "main" . }}
+      <!-- Default content if not overridden -->
+      <p>This is the default main content.</p>
+      {{ end }}
+    </main>
+
+    <footer>{{ partial "footer.html" . }}</footer>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+{{ $style:= resources.Get "css/style.css" | postCSS }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
