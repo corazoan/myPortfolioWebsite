@@ -264,9 +264,9 @@
   color: rgb(165 243 252 / var(--tw-text-opacity));
 }
 
-.text-purple-700 {
+.text-green-400 {
   --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity));
+  color: rgb(74 222 128 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -313,7 +313,7 @@ body {
   min-height: 100vh;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
-  background-color: rgb(0, 0, 0);
+  background-color: #0b0d11;
 }
 #dropDownMenu {
   backdrop-filter: blur(10px);
@@ -327,7 +327,7 @@ body {
   text-shadow: 2px 2px 15px cyan;
 }
 code {
-  background-color: #28460dae;
+  background-color: #13b0d0ae;
 }
 pre {
   background-color: black;
