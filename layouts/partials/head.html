@@ -1,2 +1,3 @@
-{{ $style:= resources.Get "css/style.css" | postCSS }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+{{ with $style := resources.GetMatch "css/style.css" | postCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+{{ end }}

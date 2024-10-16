@@ -15,22 +15,21 @@
   {{ with .Site.GetPage .Title }} {{ range .Pages }}
   <div
     id="card"
-    class="w-[80%] sm:w-[25%] bg-white/10 backdrop-blur border-solid border-[1px] border-gray-400 border-opacity-40 rounded m-3"
+    class="w-[80%] sm:w-[25%] bg-white/10 backdrop-blur border-solid border-[1px] border-gray-400 border-opacity-40 rounded m-3 pb-3"
   >
-    {{ if .Params.image}} {{$image := .Resources.Get .Params.image}} {{ with
-    $image }}
+    {{ if .Params.image}} {{$image := .Resources.Get .Params.image}}
     <img
-      src="{{ .RelPermalink }}"
+      src="{{ $image.Permalink }}"
       width="100%"
-      height="150px"
-      style="object-fit: cover"
+      style="object-fit: contain"
     />
-    {{ end }} {{ end }}
+    {{ end }}
     <div class="w-100% px-3 block">
       {{ if .Date }}
       <p class="text-white">{{ .Date | time.Format ":date_medium" }}</p>
       {{ end }}
       <a href="{{.Permalink}}" class="no-underline">{{.Title}}</a>
+      <p>{{truncate 80 .Description}}</p>
     </div>
   </div>
   {{ end }} {{ end }}

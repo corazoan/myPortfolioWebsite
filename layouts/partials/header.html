@@ -5,7 +5,7 @@
     <div class="flex justify-center gap-6">
       <img
         class=""
-        src='{{ "images/techInnovation-log.svg" | relURL }}'
+        src="{{absURL "images/techInnovation-log.svg"}}"
         height="36px"
         width="46px"
         alt="company-logo"
@@ -14,7 +14,7 @@
         <li class="h-[36px] list-none leading-[36px]">
           <a
             id="DesktopMenu"
-            class="text-2xl no-underline hover:underline hover:text-cyan-200"
+            class="text-2xl no-underline hover:underline hover:text-cyan-1000"
             href="/notes"
             >Notes</a
           >
@@ -22,32 +22,32 @@
         <li class="h-[36px] list-none leading-[36px]">
           <a
             id="DesktopMenu"
-            class="text-2xl hover:underline no-underline hover:text-cyan-200"
-            href="/blogs"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="{{relURL "/blogs"}}"
             >Blogs</a
           >
         </li>
         <li class="h-[36px] list-none leading-[36px]">
           <a
             id="DesktopMenu"
-            class="text-2xl hover:underline no-underline hover:text-cyan-200"
-            href="/notes"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="{{relURL "/notes"}}"
             >Learn</a
           >
         </li>
         <li class="h-[36px] list-none leading-[36px]">
           <a
             id="DesktopMenu"
-            class="text-2xl hover:underline no-underline hover:text-cyan-200"
-            href="/About"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="{{relURL "/about"}}"
             >About</a
           >
         </li>
         <li class="h-[36px] list-none leading-[36px]">
           <a
             id="DesktopMenu"
-            class="text-2xl hover:underline no-underline hover:text-cyan-200"
-            href="/Contact"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="{{relURL "/contact"}}"
             >Contact</a
           >
         </li>
@@ -57,7 +57,7 @@
       <button class="bg-transparent border-none">
         <img
           class="mt-2 max-w-[32px] max-h-[32px]"
-          src='{{ "images/search.svg" | relURL }}'
+          src="{{absURL "images/search.svg"}}"
           height="32px"
           width="32px"
           alt="search-logo"
@@ -69,7 +69,7 @@
       >
         <img
           class="mt-2"
-          src='{{ "images/menu.svg" | relURL }}'
+          src="{{ absURL "images/menu.svg"}}"
           height="32px"
           width="32px"
           alt="menu-logo"
