@@ -11,7 +11,7 @@ body {
   background-position: center;
   min-height: 100vh;
   backdrop-filter: blur(100px);
-  background-color: rgb(0, 0, 0);
+  background-color: #0b0d11;
 }
 #dropDownMenu {
   backdrop-filter: blur(10px);
@@ -25,7 +25,7 @@ body {
   text-shadow: 2px 2px 15px cyan;
 }
 code {
-  background-color: #28460dae;
+  background-color: #13b0d0ae;
 }
 pre {
   background-color: black;
