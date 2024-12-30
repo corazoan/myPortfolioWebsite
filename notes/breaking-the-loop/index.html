@@ -1,243 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head><script src="/myPortfolioWebsite/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=myPortfolioWebsite/livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Breaking the Loop</title>
+    
+<link rel="stylesheet" href="http://localhost:1313/myPortfolioWebsite/css/style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://mrterrorop.github.io/myPortfolioWebsite/css/style.css"
-    />
+
   </head>
   <body>
     <header>
-      <div
-        class="bg-white/10 h-14 backdrop-blur-lg flex border-solid border-b-[1px] border-opacity-20 border-0 border-white items-center justify-between px-6 sm:px-12"
+  <div
+    class="bg-[#1b233067] h-14 backdrop-blur-lg flex border-solid border-b-[1px] border-opacity-20 border-0 border-white items-center justify-between px-6 sm:px-12"
+  >
+    <div class="flex justify-center gap-6">
+        <a href="../../">
+      <img
+        class=""
+        src="http://localhost:1313/myPortfolioWebsite/images/techInnovation-log.svg"
+        height="36px"
+        width="46px"
+        alt="company-logo"
+      /></a>
+      <ul class="hidden sm:flex sm:none gap-6 p-0 m-0">
+        <li class="h-[36px] list-none leading-[36px]">
+          <a
+            id="DesktopMenu"
+            class="text-2xl no-underline hover:underline hover:text-cyan-1000"
+            href="../../notes"
+            >Notes</a
+          >
+        </li>
+        <li class="h-[36px] list-none leading-[36px]">
+          <a
+            id="DesktopMenu"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="../../blogs"
+            >Blogs</a
+          >
+        </li>
+        <li class="h-[36px] list-none leading-[36px]">
+          <a
+            id="DesktopMenu"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="../../notes"
+            >Learn</a
+          >
+        </li>
+        <li class="h-[36px] list-none leading-[36px]">
+          <a
+            id="DesktopMenu"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="../../about"
+            >About</a
+          >
+        </li>
+        <li class="h-[36px] list-none leading-[36px]">
+          <a
+            id="DesktopMenu"
+            class="text-2xl hover:underline no-underline hover:text-cyan-1000"
+            href="../../contact"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="">
+      <button class="bg-transparent border-none">
+        <img
+          class="mt-2 max-w-[32px] max-h-[32px]"
+          src="http://localhost:1313/myPortfolioWebsite/images/search.svg"
+          height="32px"
+          width="32px"
+          alt="search-logo"
+        />
+      </button>
+      <button
+        id="menu-button"
+        class="bg-transparent border-none cursor-pointer sm:hidden relative max-w-[32px] max-h-[32px]"
       >
-        <div class="flex justify-center gap-6">
-          <img
-            class=""
-            src="https://mrterrorop.github.io/myPortfolioWebsite/images/techInnovation-log.svg"
-            height="36px"
-            width="46px"
-            alt="company-logo"
-          />
-          <ul class="hidden sm:flex sm:none gap-6 p-0 m-0">
-            <li class="h-[36px] list-none leading-[36px]">
-              <a
-                id="DesktopMenu"
-                class="text-2xl no-underline hover:underline hover:text-cyan-1000"
-                href="../../notes"
-                >Notes</a
-              >
-            </li>
-            <li class="h-[36px] list-none leading-[36px]">
-              <a
-                id="DesktopMenu"
-                class="text-2xl hover:underline no-underline hover:text-cyan-1000"
-                href="../../blogs"
-                >Blogs</a
-              >
-            </li>
-            <li class="h-[36px] list-none leading-[36px]">
-              <a
-                id="DesktopMenu"
-                class="text-2xl hover:underline no-underline hover:text-cyan-1000"
-                href="../../notes"
-                >Learn</a
-              >
-            </li>
-            <li class="h-[36px] list-none leading-[36px]">
-              <a
-                id="DesktopMenu"
-                class="text-2xl hover:underline no-underline hover:text-cyan-1000"
-                href="../../about"
-                >About</a
-              >
-            </li>
-            <li class="h-[36px] list-none leading-[36px]">
-              <a
-                id="DesktopMenu"
-                class="text-2xl hover:underline no-underline hover:text-cyan-1000"
-                href="../../contact"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="">
-          <button class="bg-transparent border-none">
-            <img
-              class="mt-2 max-w-[32px] max-h-[32px]"
-              src="https://mrterrorop.github.io/myPortfolioWebsite/images/search.svg"
-              height="32px"
-              width="32px"
-              alt="search-logo"
-            />
-          </button>
-          <button
-            id="menu-button"
-            class="bg-transparent border-none cursor-pointer sm:hidden relative max-w-[32px] max-h-[32px]"
+        <img
+          class="mt-2"
+          src="http://localhost:1313/myPortfolioWebsite/images/menu.svg"
+          height="32px"
+          width="32px"
+          alt="menu-logo"
+        />
+      </button>
+      <ul
+        id="dropDownMenu"
+        style="list-style-type: none"
+        class="max-w-[120px] w-[120px] bg-blue-200/40 border-solid hidden border-white border-opacity-30 absolute p-[0] top-[56px] right-[16px] shadow-lg shadow-black/20"
+      >
+        <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
+          <a class="no-underline text-cyan-200 font-bold" href="../../notes"
+            >Notes</a
           >
-            <img
-              class="mt-2"
-              src="https://mrterrorop.github.io/myPortfolioWebsite/images/menu.svg"
-              height="32px"
-              width="32px"
-              alt="menu-logo"
-            />
-          </button>
-          <ul
-            id="dropDownMenu"
-            style="list-style-type: none"
-            class="max-w-[120px] w-[120px] bg-blue-200/40 border-solid hidden border-white border-opacity-30 absolute p-[0] top-[56px] right-[16px] shadow-lg shadow-black/20"
+        </li>
+        <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
+          <a class="no-underline text-cyan-200 font-bold" href="../../blogs"
+            >Blogs</a
           >
-            <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
-              <a class="no-underline text-cyan-200 font-bold" href="../../notes"
-                >Notes</a
-              >
-            </li>
-            <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
-              <a class="no-underline text-cyan-200 font-bold" href="../../blogs"
-                >Blogs</a
-              >
-            </li>
-            <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
-              <a class="no-underline text-cyan-200 font-bold" href="../../learn"
-                >Learn</a
-              >
-            </li>
-            <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
-              <a
-                class="no-underline text-cyan-200 font-bold"
-                href="../../contact"
-                >Contact</a
-              >
-            </li>
-            <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
-              <a class="no-underline text-cyan-200 font-bold" href="../../about"
-                >About</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
+        </li>
+        <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
+          <a class="no-underline text-cyan-200 font-bold" href="../../learn"
+            >Learn</a
+          >
+        </li>
+        <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
+          <a class="no-underline text-cyan-200 font-bold" href="../../contact"
+            >Contact</a
+          >
+        </li>
+        <li class="h-[36px] text-center hover:bg-blue-500 leading-[36px]">
+          <a class="no-underline text-cyan-200 font-bold" href="../../about"
+            >About</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
 
-      <script>
-        const menuButton = document.getElementById("menu-button");
-        const dropDownMenu = document.getElementById("dropDownMenu");
-        menuButton.addEventListener("click", () => {
-          console.log("toggle button click");
-          dropDownMenu.classList.toggle("hidden");
-        });
+  <script>
+    const menuButton = document.getElementById("menu-button");
+    const dropDownMenu = document.getElementById("dropDownMenu");
+    menuButton.addEventListener("click", () => {
+      console.log("toggle button click");
+      dropDownMenu.classList.toggle("hidden"); 
+    });
 
-        document.addEventListener("mousedown", (e) => {
-          if (e.target.closest("#dropDownMenu") || e.target.alt === "menu-logo")
-            return;
-          dropDownMenu.classList.add("hidden");
-          console.log("event", e.target.alt);
-        });
-      </script>
-    </header>
+    document.addEventListener("mousedown", (e) => {
+      if (e.target.closest("#dropDownMenu") || e.target.alt === "menu-logo")
+        return;
+      dropDownMenu.classList.add("hidden");
+      console.log("event", e.target.alt);
+    });
+  </script>
+</header>
 
     <main>
-      <div
-        class="w-[90%] sm:w-[60%] block mx-auto bg-white/10 backdrop-blur border-solid border-[1px] my-3 px-3 border-gray-400 border-opacity-40 rounded"
-      >
-        <h1>Breaking the Loop</h1>
-        <p>Dec 10, 2023</p>
-        <p>Hey folks,</p>
-        <p>
-          We all have dreams and goals we want to achieve, right? We have a
-          clear picture of what we aspire to be or what we want from life.
-        </p>
-        <p>
-          Recently, I stumbled upon a book called &ldquo;Atomic Habits&rdquo; by
-          <a href="https://jamesclear.com/atomic-habits-summary">James Clear</a
-          >, and it hit me hard - our habits shape our future. We may have lofty
-          goals, but do our habits align with achieving them?
-        </p>
-        <p>
-          Let me share a bit of my story. My ultimate goal is to become a great
-          computer scientist. Sounds cool, right? But let&rsquo;s take a peek
-          into my daily routine, the loop I find myself stuck in.
-        </p>
-        <ol>
-          <li>Job</li>
-          <li>College</li>
-          <li>Social Media (mostly for entertainment)</li>
-        </ol>
-        <p>
-          And that&rsquo;s about it. I wake up, dive into YouTube shorts,
-          Twitter, Discord, and before I know it, it&rsquo;s 9 or 10 AM.
-          Suddenly, the realization hits that I have a job to do, and only then
-          do I kickstart my day.
-        </p>
-        <p>
-          This loop continues - job, social media, college - a mundane routine.
-        </p>
-        <p>
-          It feels like I&rsquo;m stuck in this loop, and I need to break free.
-          So, here&rsquo;s my plan starting today:
-        </p>
-        <p>
-          I&rsquo;ll wake up early, jot down my tasks for the day. If there
-          aren&rsquo;t any specific tasks, I&rsquo;ll add something related to
-          learning.
-        </p>
-        <p>
-          Sure, entertainment is a crucial part of life. We can&rsquo;t be all
-          work and no play. But discipline is the key to focusing on our dreams.
-        </p>
-        <p>
-          Let&rsquo;s see how this small change can shake up my life. Stay
-          tuned! 🚀
-        </p>
-      </div>
+      
+<div
+  class="w-[90%] sm:w-[60%] block mx-auto bg-white/10 backdrop-blur border-solid border-[1px] my-3 px-3 border-gray-400 border-opacity-40 rounded"
+>
+  <h1>Breaking the Loop</h1>
+  <p>Dec 10, 2023</p>
+   <p>Hey folks,</p>
+<p>We all have dreams and goals we want to achieve, right? We have a clear picture of what we aspire to be or what we want from life.</p>
+<p>Recently, I stumbled upon a book called &ldquo;Atomic Habits&rdquo; by <a href="https://jamesclear.com/atomic-habits-summary">James Clear</a>, and it hit me hard - our habits shape our future. We may have lofty goals, but do our habits align with achieving them?</p>
+<p>Let me share a bit of my story. My ultimate goal is to become a great computer scientist. Sounds cool, right? But let&rsquo;s take a peek into my daily routine, the loop I find myself stuck in.</p>
+<ol>
+<li>Job</li>
+<li>College</li>
+<li>Social Media (mostly for entertainment)</li>
+</ol>
+<p>And that&rsquo;s about it. I wake up, dive into YouTube shorts, Twitter, Discord, and before I know it, it&rsquo;s 9 or 10 AM. Suddenly, the realization hits that I have a job to do, and only then do I kickstart my day.</p>
+<p>This loop continues - job, social media, college - a mundane routine.</p>
+<p>It feels like I&rsquo;m stuck in this loop, and I need to break free. So, here&rsquo;s my plan starting today:</p>
+<p>I&rsquo;ll wake up early, jot down my tasks for the day. If there aren&rsquo;t any specific tasks, I&rsquo;ll add something related to learning.</p>
+<p>Sure, entertainment is a crucial part of life. We can&rsquo;t be all work and no play. But discipline is the key to focusing on our dreams.</p>
+<p>Let&rsquo;s see how this small change can shake up my life. Stay tuned! 🚀</p>
+
+</div>
+
+
     </main>
 
-    <footer>
-      <div
-        class="bg-white/10 backdrop-blur-lg min-h-[50px] border-t-[1px] border-solid border-0 border-opacity/20 border-gray-400/40 justify-between flex items-center px-6 sm:px-12"
-      >
-        <div>
-          <a
-            href="../../about"
-            id="footerLink"
-            class="mx-2 hover:text-cyan-200 hover:underline text-2xl no-underline"
-          >
-            About
-          </a>
-          <a
-            href="../../hire-me"
-            id="footerLink"
-            class="text-green-400 mx-2 hover:text-cyan-1000 hover:underline text-2xl no-underline"
-          >
-            Hire Me!
-          </a>
-        </div>
-        <div id="socialMediaLink" class="flex items-center gap-2">
-          <a href="https://github.com/MRterrorOP">
-            <img
-              class="hover:bg-white bg-gray-400 rounded-full"
-              src="https://mrterrorop.github.io/myPortfolioWebsite/images/github.png"
-              alt="githubLink"
-              width="30px"
-              height="100%"
-            />
-          </a>
-          <a href="">
-            <img
-              class="hover:bg-blue-400 bg-gray-400 rounded-full"
-              src="https://mrterrorop.github.io/myPortfolioWebsite/images/twitter.png"
-              alt="githubLink"
-              width="33px"
-              height="100%"
-            />
-          </a>
-        </div>
-      </div>
-    </footer>
+    <footer><div
+  class="bg-[#1b233067] backdrop-blur-lg min-h-[50px] border-t-[1px] border-solid border-0 border-opacity/20 border-gray-400/40 justify-between flex items-center px-6 sm:px-12"
+>
+  <div>
+    <a
+      href="../../about"
+      id="footerLink"
+      class="mx-2 hover:text-cyan-200 hover:underline text-2xl no-underline"
+    >
+      About
+    </a>
+    <a
+      href="../../hire-me"
+      id="footerLink"
+      class="text-green-400 mx-2 hover:text-cyan-1000 hover:underline text-2xl no-underline"
+    >
+      Hire Me!
+    </a>
+  </div>
+  <div id="socialMediaLink" class="flex items-center gap-2">
+    <a href="https://github.com/MRterrorOP">
+      <img class="hover:bg-white bg-gray-400 rounded-full" src="http://localhost:1313/myPortfolioWebsite/images/github.png" alt="githubLink" width="30px" height="100%" />
+    </a>
+    <a href="">
+      <img class="hover:bg-blue-400 bg-gray-400 rounded-full" src="http://localhost:1313/myPortfolioWebsite/images/twitter.png" alt="githubLink" width="33px" height="100%" />
+    </a>
+  </div>
+</div>
+</footer>
   </body>
 </html>
