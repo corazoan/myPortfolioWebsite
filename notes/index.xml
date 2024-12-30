@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notes on Tech | </title>
-    <link>https://mrterrorop.github.io/myPortfolioWebsite/notes/</link>
+    <link>https://corazoan.github.io/myPortfolioWebsite/notes/</link>
     <description>Recent content in notes on Tech | </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Dec 2023 11:47:00 +0530</lastBuildDate>
-    <atom:link href="https://mrterrorop.github.io/myPortfolioWebsite/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corazoan.github.io/myPortfolioWebsite/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breaking the Loop</title>
-      <link>https://mrterrorop.github.io/myPortfolioWebsite/notes/breaking-the-loop/</link>
+      <link>https://corazoan.github.io/myPortfolioWebsite/notes/breaking-the-loop/</link>
       <pubDate>Sun, 10 Dec 2023 11:47:00 +0530</pubDate>
-      <guid>https://mrterrorop.github.io/myPortfolioWebsite/notes/breaking-the-loop/</guid>
+      <guid>https://corazoan.github.io/myPortfolioWebsite/notes/breaking-the-loop/</guid>
       <description>Hey folks,&#xA;We all have dreams and goals we want to achieve, right? We have a clear picture of what we aspire to be or what we want from life.&#xA;Recently, I stumbled upon a book called &amp;ldquo;Atomic Habits&amp;rdquo; by James Clear, and it hit me hard - our habits shape our future. We may have lofty goals, but do our habits align with achieving them?&#xA;Let me share a bit of my story.</description>
     </item>
   </channel>
